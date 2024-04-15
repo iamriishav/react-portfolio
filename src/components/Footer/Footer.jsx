@@ -19,14 +19,14 @@ const footer = () => {
                 target="_blank"
                 aria-label="linkedin"
               >
-                <FaLinkedin name="Linkedin" />
+                <FaLinkedin name="Linkedin" className="footer-social-icon"/>
               </a>
               <a
                 href="https://github.com/iamriishav"
                 target="_blank"
                 aria-label="twitter"
               >
-                <FaGithub name="GitHub" />
+                <FaGithub name="GitHub" className="footer-social-icon"/>
               </a>
             </div>
           </div>

@@ -44,17 +44,8 @@
   color: #147efb;
 }
 
-.theme-changer {
-  margin-top: -0.4rem;
-}
-
-.theme-changer > select {
-  padding: 0.2rem 0.4rem;
-  border: 1px solid var(--secondary-color);
-  border-radius: 0.3rem;
-  outline: none;
-  background: var(--background-color);
-  color: var(--primary-color);
+.social-links > a > .footer-social-icon {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

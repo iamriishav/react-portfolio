@@ -176,6 +176,7 @@
 .about-text>a:hover {
   background-color: #ffd109;
   color: #000;
+  cursor: pointer;
 }
 
 .education-container {
@@ -236,6 +237,7 @@
   flex-direction: column;
   gap: 2rem;
   width: 950px;
+  cursor: pointer;
 }
 
 .education-items>a {
@@ -245,12 +247,14 @@
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0px 3px 6px var(--boxshadow);
+  cursor: pointer;
 }
 
 .edu-item {
   display: flex;
   align-items: center;
   gap: 4rem;
+  cursor: pointer;
 }
 
 .education-img {
@@ -266,6 +270,7 @@
 
 .education-img>img {
   width: 75%;
+  cursor: pointer;
 }
 
 .education-details {

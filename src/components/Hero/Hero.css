@@ -62,12 +62,14 @@
   font-size: 2rem;
   transition: all 0.2s ease-in;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .social > a > p {
   font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .social > a:hover {
