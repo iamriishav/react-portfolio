@@ -1,0 +1,124 @@
+#home {
+  width: 100%;
+  padding: 6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 5rem;
+}
+
+.hero-bg {
+  height: 990px;
+  width: 990px;
+  background-color: #147efb;
+  border-radius: 100%;
+  position: absolute;
+  right: -330px;
+  top: -330px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.hero-text > h2 {
+  font-size: 3rem;
+  line-height: 5rem;
+  color: var(--primary-color);
+}
+
+.hero-text > h2 > img {
+  width: 3rem;
+  margin-left: 0.5rem;
+}
+
+.hero-text > p {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.social {
+  display: flex;
+  gap: 1.2rem;
+  padding-top: 1.5rem;
+}
+
+.social > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.social > a > p {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.social > a:hover {
+  color: #147efb;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.hero-img > img {
+  margin-top: -1rem;
+  width: 90%;
+}
+
+@media only screen and (max-width: 1180px) {
+  .hero-bg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    padding: 0;
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-bg {
+    display: none;
+  }
+
+  .hero-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero-text > h2 {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-img > img {
+    width: 100%;
+  }
+}

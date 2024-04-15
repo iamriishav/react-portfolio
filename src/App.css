@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #767676;
+  --background-color: #fff;
+  --secondary-background: #f9f9f9;
+  --nav-background: rgba(255, 255, 255, 0.45);
+  --boxshadow: rgba(0, 0, 0, 0.3);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #fff;
+    --secondary-color: #cac9c9;
+    --background-color: #000;
+    --nav-background: rgba(0, 0, 0, 0.45);
+    --secondary-background: #000;
+    --boxshadow: rgba(255, 255, 255, .3);
+  }
+} */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* body {
+  background-image: url("./images/bg.gif");
+  background-blend-mode: difference;
+} */
