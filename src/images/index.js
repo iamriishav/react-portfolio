@@ -27,5 +27,6 @@ const images = {
   postman: require("./postman.webp"),
   vscode: require("./vsCode.webp"),
   java: require("./java.webp"),
+  cursor: require("./feather.png")
 };
 export default images;

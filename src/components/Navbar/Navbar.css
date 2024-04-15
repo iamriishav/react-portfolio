@@ -48,6 +48,7 @@ nav {
 
 .nav-items>ul>li>a:hover {
   color: #147efb;
+  cursor: pointer;
 }
 
 .nav-items>ul>li::before {
