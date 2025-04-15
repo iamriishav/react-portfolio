@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState, useEffect } from "react";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
   }, [theme]);
   return (
     <>
+      <Analytics />
       <Navbar />
       <Hero />
       <About />
