@@ -17,7 +17,7 @@ function Navbar() {
         <div className="logo">
           <a href="/">
             <h2>
-              Rishav<span>.dev</span>
+            <span> &lt; </span> Rishav <span> /&gt; </span>
             </h2>
           </a>
         </div>

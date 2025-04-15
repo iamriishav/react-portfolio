@@ -1,6 +1,7 @@
 #contact {
   width: 100%;
-  padding-top: 4.6rem;
+  padding-top: 5rem;
+  background-color: var(--background-color);
 }
 
 .contact-container {
@@ -67,6 +68,7 @@
 
 .form > form > input {
   height: 60px;
+  cursor: auto;
 }
 
 .form > form > input,
@@ -82,6 +84,7 @@ textarea {
   outline: none;
   transition: all 0.4s ease-in-out;
   resize: none;
+  cursor: auto;
 }
 
 .form > form > input:focus,

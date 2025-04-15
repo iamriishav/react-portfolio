@@ -6,8 +6,27 @@ import Skills from "./components/Skills/Skills";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import React, { useState, useEffect } from "react";
 
 function App() {
+  const [theme, setTheme] = useState(() => {
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  });
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = (e) => {
+      setTheme(e.matches ? "dark" : "light");
+    };
+    mediaQuery.addEventListener("change", handleChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleChange);
+    };
+  }, []);
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
     <>
       <Navbar />

@@ -10,12 +10,11 @@ const Hero = () => {
         <div className="hero-bg"></div>
         <div className="hero-text">
           <h2>
-            Front-End Developer
+            Software Engineer
             <img src={images.wave} alt="hand" />
           </h2>
           <p>
-            Hi, I'm Rishav. A passionate Front End Developer based in
-            Jharkhand, India. 📍
+            Hi, I'm Rishav. Senior Software Engineer at Persistent Systems.
           </p>
           <div className="social">
             <a href="https://linkedin.com/in/iamriishav" target="_blank">

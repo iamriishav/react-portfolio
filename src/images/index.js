@@ -10,7 +10,8 @@ const images = {
   php: require("./php.webp"),
   sql: require("./mysql.webp"),
   mongodb: require("./mongodb.webp"),
-  github: require("./github-day.webp"),
+  github_day: require("./github-day.webp"),
+  github_dark: require("./github-dark.webp"),
   bootstrap: require("./bootstrap.webp"),
   tailwind: require("./tailwind.webp"),
   react: require("./react.webp"),
@@ -27,6 +28,9 @@ const images = {
   postman: require("./postman.webp"),
   vscode: require("./vsCode.webp"),
   java: require("./java.webp"),
-  cursor: require("./feather.png")
+  cursor: require("./feather.png"),
+  selenium: require("./selenium.webp"),
+  jenkins: require("./jenkins.webp"),
+  linux: require("./linux.webp"),
 };
 export default images;

@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-color);
 }
 
 .hero-container {
@@ -23,6 +24,7 @@
   top: -330px;
   z-index: -1;
   overflow: hidden;
+  z-index: 10;
 }
 
 .hero-text {
@@ -78,6 +80,7 @@
 
 .hero-img {
   width: 50%;
+  z-index: 11;
 }
 
 .hero-img > img {

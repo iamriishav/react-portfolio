@@ -18,7 +18,7 @@ const about = () => {
               <div className="infoDiv">
                 <div className="nameDiv">
                   <p className="name">Rishav Kumar Rajak</p>
-                  <p className="role">Frontend Developer</p>
+                  <p className="role">Software Engineer</p>
                 </div>
                 <div className="socialDiv">
                   <a href="https://facebook.com/iamriishav/" target="_blank">
@@ -42,20 +42,20 @@ const about = () => {
               <img src={images.hand} alt="hand" />
             </h2>
             <p>
-              I’m an aspiring engineer, tech-savvy, and a pragmatic developer
-              wandering around the tech fields to bring creativity to life. My
-              name is <span>Rishav Kumar Rajak</span>.
+              I’m <span>Rishav Kumar Rajak</span>, a Senior Software Engineer at
+              <a href="https://www.persistent.com/" target="_blank"> Persistent Systems</a>, combining technical expertise and creativity
+              to deliver innovative solutions in the tech industry.
             </p>
             <br />
             <p>
-              As a Front-End Developer, I possess an impressive arsenal of
-              skills in HTML, CSS, Sass, JavaScript, React and Tailwind CSS. I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. My expertise lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utilizing cutting-edge development tools and techniques. I am also
-              a team player who thrives in collaborating with cross-functional
-              teams to produce outstanding web applications.
+              As a Senior Quality Engineer, I bring a strong technical
+              foundation and a creative mindset to the table. I specialize in
+              ensuring the delivery of high-quality software solutions by
+              leveraging modern testing methodologies and tools. With a keen eye
+              for detail and a passion for problem-solving, I contribute to
+              seamless user experiences and robust application performance. I
+              thrive in collaborative environments, working closely with
+              cross-functional teams to achieve excellence in every project.
             </p>
             <a href={images.resume} target="_blank">
               Resume
@@ -77,7 +77,7 @@ const about = () => {
                   <h2>BIT Sindri</h2>
                   <p>Bachelor's Degree in Information Technology.</p>
                   {/* <p> */}
-                    {/* CGPA: <span>8.06</span>
+                  {/* CGPA: <span>8.06</span>
                   </p> */}
                 </div>
               </div>

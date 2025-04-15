@@ -1,12 +1,13 @@
 #about {
   width: 100%;
-  padding: 4.5rem 0;
+  padding: 5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: var(--nav-background);
   backdrop-filter: blur(1px);
+  background-color: var(--background-color);
 }
 
 .about-heading {
@@ -128,6 +129,10 @@
   transition: all 0.3s ease-in;
 }
 
+.socialDiv > a > * {
+  cursor: pointer;
+}
+
 .socialDiv > a:hover {
   color: #147efb;
 }
@@ -158,6 +163,12 @@
 .about-text>p>span {
   color: #0073f7;
   font-weight: bold;
+}
+
+.about-text>p>a {
+  text-decoration: none;
+  color: #0073f7;
+  cursor: pointer;
 }
 
 .about-text>a {
@@ -282,6 +293,13 @@
 .education-details>p {
   color: var(--secondary-color);
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.education-details>h2 {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .education-details>p>span {
